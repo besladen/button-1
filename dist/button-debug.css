@@ -1,0 +1,117 @@
+/*! define chopper/button/1.0.0/button-debug.css */
+button{
+    outline: none;
+}
+
+button::focus-inner {
+    border: 0;  
+    padding: 0;
+}
+button::-webkit-focus-inner{
+    border: 0;  
+    padding: 0;
+}
+button::-khtml-focus-inner{
+    border: 0;  
+    padding: 0;
+}
+button::-moz-focus-inner{
+    border: 0;  
+    padding: 0;
+}
+
+.bt{
+    display: inline-block;
+    padding: 4px 12px;
+    border-style: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-border-radius: 2px;
+     -khtml-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+}
+
+/** blue **/
+.bt-blue,
+.bt-blue:active,
+.bt-blue:hover {
+     color: #fff!important;
+}
+.bt-blue{
+    background-color: #3399ff;
+}
+.bt-blue:hover{
+    background-color: #0E76BD;
+}
+.bt-blue:active{
+    background-color: #045082;
+}
+
+/** navy-blue **/
+.bt-navy-blue,
+.bt-navy-blue:active,
+.bt-navy-blue:hover {
+     color: #fff!important;
+}
+.bt-navy-blue{
+    background-color: #0E76BD;
+}
+.bt-navy-blue:hover{
+    background-color: #045082;
+}
+.bt-navy-blue:active{
+    background-color: #118ADB;
+}
+
+/** green **/
+.bt-green,
+.bt-green:active,
+.bt-green:hover {
+     color: #fff!important;
+}
+.bt-green{
+    background-color: #03AD04;
+}
+.bt-green:hover{
+    background-color: #016203;
+}
+.bt-green:active{
+    background-color: #4DC652;
+}
+
+/** gray **/
+.bt-gray,
+.bt-gray:active,
+.bt-gray:hover {
+     color: #fff!important;
+}
+.bt-gray{
+    background-color: #6A6E6F;
+}
+.bt-gray:hover{
+    background-color: #444547;
+}
+.bt-gray:active{
+    background-color: #88898B;
+}
+
+/** red **/
+.bt-red,
+.bt-red:active,
+.bt-red:hover {
+     color: #fff!important;
+}
+.bt-red{
+    background-color: #DD3B3B;
+}
+.bt-red:hover{
+    background-color: #dc1010;
+}
+.bt-red:active{
+    background-color: #e75050;
+}

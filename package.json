@@ -1,0 +1,20 @@
+{
+  "name": "button",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chopper-UI/button",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chopper-UI/button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chopper-UI/button/issues"
+  },
+  "family": "chopper",
+  "spm": {
+    "alias": {},
+    "output": [
+      "button.css"
+    ]
+  }
+}
