@@ -1,7 +1,7 @@
 {
   "name": "button",
-  "description": "",
-  "version": "1.0.0",
+  "description": "通用按钮组件",
+  "version": "1.0.1",
   "homepage": "https://github.com/chopper-UI/button",
   "repository": {
     "type": "git",

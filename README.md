@@ -2,7 +2,8 @@
 
 ---
 
-按钮组件
+通用按钮组件
+建议使用button标签，a, div也是允许的。
 
 ---
 
@@ -13,23 +14,48 @@
 ### 默认
 
 ````html
-<button class="bt">
+<button class="ui-btn">
     Click Here
 </button>
 ````
 
-### 示例一: Blue
+### 示例一: 浅蓝色按钮
 
 ````html
-<div class="bt bt-blue">
+<div class="ui-btn ui-btn-blue">
     Click Here
 </div>
 ````
 
-### 示例一: Red
+### 示例二: 深蓝色按钮
 
 ````html
-<div class="bt bt-red">
+<a class="ui-btn ui-btn-navy-blue">
     Click Here
-</div>
+</a>
+````
+
+### 示例三: 红色按钮
+
+````html
+<a class="ui-btn ui-btn-red">
+    Click Here
+</a>
+
+````
+
+### 示例四: 灰色按钮
+
+````html
+<button class="ui-btn ui-btn-gray">
+    Click Here
+</button>
+````
+
+### 示例五: 绿色按钮
+
+````html
+<button class="ui-btn ui-btn-green">
+    Click Here
+</button>
 ````
