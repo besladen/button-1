@@ -19,43 +19,49 @@
 </button>
 ````
 
-### 示例一: 浅蓝色按钮
+### 示例一: 主要按钮
 
 ````html
-<div class="ui-btn ui-btn-blue">
+<div class="ui-btn ui-btn-primary">
     Click Here
 </div>
 ````
 
-### 示例二: 深蓝色按钮
+### 示例二: 次要按钮
 
 ````html
-<a class="ui-btn ui-btn-navy-blue">
+<a class="ui-btn ui-btn-secondary">
     Click Here
 </a>
 ````
 
-### 示例三: 红色按钮
+### 示例三: 危險按钮
 
 ````html
-<a class="ui-btn ui-btn-red">
+<span class="ui-btn ui-btn-danger">
+    Click Here
+</span>
+````
+
+### 示例四: 反向按钮
+
+````html
+<button class="ui-btn ui-btn-inverse">
+    Click Here
+</button>
+````
+
+### 示例五: 不同tag
+
+````html
+<div class="ui-btn ui-btn-primary">
+    Click Here
+</div>
+<a class="ui-btn ui-btn-danger">
     Click Here
 </a>
-
-````
-
-### 示例四: 灰色按钮
-
-````html
-<button class="ui-btn ui-btn-gray">
+<button class="ui-btn ui-btn-inverse">
     Click Here
 </button>
-````
-
-### 示例五: 绿色按钮
-
-````html
-<button class="ui-btn ui-btn-green">
-    Click Here
-</button>
+<input class="ui-btn ui-btn-secondary" type="button" value="Click Here">
 ````

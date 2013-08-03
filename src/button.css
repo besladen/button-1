@@ -22,6 +22,7 @@ button::-moz-focus-inner{
 .ui-btn{
     display: inline-block;
 	padding: 4px 12px;
+	line-height: 20px;
 	border-style: none;
 	text-align: center;
     text-decoration: none;
@@ -35,82 +36,66 @@ button::-moz-focus-inner{
 	   		border-radius: 2px;
 }
 
-/** blue **/
-.ui-btn-blue,
-.ui-btn-blue:active,
-.ui-btn-blue:hover {
+/** primary **/
+.ui-btn-primary,
+.ui-btn-primary:active,
+.ui-btn-primary:hover {
 	 color: #fff!important;
 }
-.ui-btn-blue{
-	background-color: #3399ff;
-}
-.ui-btn-blue:hover{
+.ui-btn-primary{
 	background-color: #0E76BD;
 }
-.ui-btn-blue:active{
+.ui-btn-primary:hover{
 	background-color: #045082;
 }
-
-/** navy-blue **/
-.ui-btn-navy-blue,
-.ui-btn-navy-blue:active,
-.ui-btn-navy-blue:hover {
-	 color: #fff!important;
-}
-.ui-btn-navy-blue{
-	background-color: #0E76BD;
-}
-.ui-btn-navy-blue:hover{
-	background-color: #045082;
-}
-.ui-btn-navy-blue:active{
+.ui-btn-primary:active{
 	background-color: #118ADB;
 }
 
-/** green **/
-.ui-btn-green,
-.ui-btn-green:active,
-.ui-btn-green:hover {
+/** secondary **/
+.ui-btn-secondary,
+.ui-btn-secondary:active,
+.ui-btn-secondary:hover {
 	 color: #fff!important;
 }
-.ui-btn-green{
-	background-color: #03AD04;
+.ui-btn-secondary{
+	background-color: #3399ff;
 }
-.ui-btn-green:hover{
-	background-color: #016203;
+.ui-btn-secondary:hover{
+	background-color: #0E76BD;
 }
-.ui-btn-green:active{
-	background-color: #4DC652;
+.ui-btn-secondary:active{
+	background-color: #045082;
 }
 
-/** gray **/
-.ui-btn-gray,
-.ui-btn-gray:active,
-.ui-btn-gray:hover {
+/** inverse **/
+.ui-btn-inverse,
+.ui-btn-inverse:active,
+.ui-btn-inverse:hover {
 	 color: #fff!important;
 }
-.ui-btn-gray{
+.ui-btn-inverse{
 	background-color: #6A6E6F;
 }
-.ui-btn-gray:hover{
+.ui-btn-inverse:hover{
 	background-color: #444547;
 }
-.ui-btn-gray:active{
+.ui-btn-inverse:active{
 	background-color: #88898B;
 }
 
-/** red **/
-.ui-btn-red,
-.ui-btn-red:active,
-.ui-btn-red:hover {
+/** danger **/
+.ui-btn-danger,
+.ui-btn-danger:active,
+.ui-btn-danger:hover {
 	 color: #fff!important;
 }
-.ui-btn-red{
+.ui-btn-danger{
 	background-color: #DD3B3B;
 }
-.ui-btn-red:hover{
+.ui-btn-danger:hover{
 	background-color: #dc1010;
 }
-.ui-btn-red:active{
+.ui-btn-danger:active{
 	background-color: #e75050;
 }
