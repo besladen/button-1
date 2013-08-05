@@ -19,6 +19,23 @@
 </button>
 ````
 
+### Size
+
+````html
+<button class="ui-btn ui-btn-small">
+    Click Here
+</button>
+<button class="ui-btn">
+    Click Here
+</button>
+<button class="ui-btn ui-btn-medium">
+    Click Here
+</button>
+<button class="ui-btn ui-btn-large">
+    Click Here
+</button>
+````
+
 ### 示例一: 主要按钮
 
 ````html
