@@ -7,10 +7,6 @@ button::-webkit-focus-inner{
 	border: 0;  
 	padding: 0;
 }
-button::-khtml-focus-inner{
-	border: 0;  
-	padding: 0;
-}
 button::-moz-focus-inner{
 	border: 0;  
 	padding: 0;
@@ -20,7 +16,7 @@ button::-moz-focus-inner{
     display: inline-block;
 	padding: 0 20px;
 	line-height: 30px;
-	height: 30px;
+/*	height: 30px;*/
     font-size: 14px;
 	font-weight: bold;
 	border-style: none;
@@ -29,7 +25,6 @@ button::-moz-focus-inner{
     vertical-align: middle;
     cursor: pointer;
 	-webkit-border-radius: 2px;
-	 -khtml-border-radius: 2px;
 	   -moz-border-radius: 2px;
 	   		border-radius: 2px;
 }
